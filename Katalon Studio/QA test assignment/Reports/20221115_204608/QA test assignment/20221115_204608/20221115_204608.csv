@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+QA test assignment,Chrome 107.0.0.0,,,2022-11-15 20:46:21,2022-11-15 20:46:35,14.177s,PASSED
+,,,,,,,
+Test Cases/BrowserAction/OpenBrowser,Chrome 107.0.0.0,,,2022-11-15 20:46:21,2022-11-15 20:46:29,8.160s,PASSED
+openBrowser(url),Chrome 107.0.0.0,,,2022-11-15 20:46:22,2022-11-15 20:46:29,7.205s,PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-15 20:46:29,2022-11-15 20:46:29,0.202s,PASSED
+,,,,,,,
+Test Cases/FormFillIn,Chrome 107.0.0.0,,,2022-11-15 20:46:29,2022-11-15 20:46:35,5.405s,PASSED
+waitForPageLoad(2),Chrome 107.0.0.0,,,2022-11-15 20:46:30,2022-11-15 20:46:31,0.275s,PASSED
+"setText(findTestObject(""Input_name""), name)",Chrome 107.0.0.0,,,2022-11-15 20:46:31,2022-11-15 20:46:32,1.504s,PASSED
+"setText(findTestObject(""Input_email""), email)",Chrome 107.0.0.0,,,2022-11-15 20:46:32,2022-11-15 20:46:33,1.113s,PASSED
+"click(findTestObject(""Btn_learn""))",Chrome 107.0.0.0,,,2022-11-15 20:46:33,2022-11-15 20:46:34,0.465s,PASSED
+"setText(findTestObject(""Input_urlGit""), urlGit)",Chrome 107.0.0.0,,,2022-11-15 20:46:34,2022-11-15 20:46:35,1.053s,PASSED

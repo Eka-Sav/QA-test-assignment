@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+QA test assignment,Chrome 107.0.0.0,,,2022-11-15 13:45:00,2022-11-15 13:45:18,18.053s,FAILED
+,,,,,,,
+Test Cases/BrowserAction/OpenBrowser,Chrome 107.0.0.0,,,2022-11-15 13:45:01,2022-11-15 13:45:15,13.645s,FAILED
+"openBrowser(""url"")",Chrome 107.0.0.0,,,2022-11-15 13:45:02,2022-11-15 13:45:15,12.606s,FAILED
+,,,,,,,
+Test Cases/FormFillIn,Chrome 107.0.0.0,,,2022-11-15 13:45:15,2022-11-15 13:45:17,1.953s,FAILED
+waitForPageLoad(5),Chrome 107.0.0.0,,,2022-11-15 13:45:16,2022-11-15 13:45:16,0.282s,PASSED
+"setText(findTestObject(""UI-Mercury/Registration/input_FirstName""), name)",Chrome 107.0.0.0,,,2022-11-15 13:45:16,2022-11-15 13:45:17,0.852s,FAILED
+,,,,,,,
+Test Cases/BrowserAction/CloseBrowser,Chrome 107.0.0.0,,,2022-11-15 13:45:17,2022-11-15 13:45:18,1.581s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-15 13:45:18,2022-11-15 13:45:18,0.651s,PASSED

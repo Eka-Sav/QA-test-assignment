@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+QA test assignment,Chrome 107.0.0.0,,,2022-11-15 13:53:27,2022-11-15 13:54:09,42.481s,FAILED
+,,,,,,,
+Test Cases/BrowserAction/OpenBrowser,Chrome 107.0.0.0,,,2022-11-15 13:53:27,2022-11-15 13:53:35,7.721s,PASSED
+openBrowser(url),Chrome 107.0.0.0,,,2022-11-15 13:53:28,2022-11-15 13:53:35,6.631s,PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-15 13:53:35,2022-11-15 13:53:35,0.200s,PASSED
+,,,,,,,
+Test Cases/FormFillIn,Chrome 107.0.0.0,,,2022-11-15 13:53:35,2022-11-15 13:54:08,32.799s,FAILED
+waitForPageLoad(2),Chrome 107.0.0.0,,,2022-11-15 13:53:36,2022-11-15 13:53:36,0.311s,PASSED
+"setText(findTestObject(""Input_name""), name)",Chrome 107.0.0.0,,,2022-11-15 13:53:36,2022-11-15 13:54:08,31.580s,FAILED
+,,,,,,,
+Test Cases/BrowserAction/CloseBrowser,Chrome 107.0.0.0,,,2022-11-15 13:54:08,2022-11-15 13:54:09,1.334s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-15 13:54:09,2022-11-15 13:54:09,0.750s,PASSED

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="QA test assignment" time="14.177" tests="2" failures="0" errors="0">
+   <testsuite name="QA test assignment" tests="2" failures="0" errors="0" time="14.177" skipped="0" timestamp="2022-11-15 20:46:21" hostname="Eka - DESKTOP-DM9Q2JM.mshome.net" id="Test Suites/QA test assignment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Eka\\Katalon Studio\\QA test assignment\\Reports\\20221115_204608\\QA test assignment\\20221115_204608"/>
+         <property name="logFiles" value="C:\\Users\\Eka\\Katalon Studio\\QA test assignment\\Reports\\20221115_204608\\QA test assignment\\20221115_204608\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Eka - DESKTOP-DM9Q2JM.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="172.27.240.1"/>
+         <property name="sessionId" value="6a651149ddddcc3c959f6f0c2ea2e676"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BrowserAction/OpenBrowser" time="8.16" classname="Test Cases/BrowserAction/OpenBrowser" status="PASSED">
+         <system-out><![CDATA[2022-11-15 20:46:21 - [TEST_CASE][PASSED] - Test Cases/BrowserAction/OpenBrowser: Test Cases/BrowserAction/OpenBrowser
+
+2022-11-15 20:46:22 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://docs.google.com/forms/d/e/1FAIpQLSeq8naEPofrOrOA0nxdGj6L7jqddI8xHMFIyl9ailFnfl-uTQ/viewform?pli=1'
+
+2022-11-15 20:46:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-15 20:46:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-15 20:46:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://docs.google.com/forms/d/e/1FAIpQLSeq8naEPofrOrOA0nxdGj6L7jqddI8xHMFIyl9ailFnfl-uTQ/viewform?pli=1'
+
+2022-11-15 20:46:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-15 20:46:29 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FormFillIn" time="5.405" classname="Test Cases/FormFillIn" status="PASSED">
+         <system-out><![CDATA[2022-11-15 20:46:29 - [TEST_CASE][PASSED] - Test Cases/FormFillIn: Test Cases/FormFillIn
+
+2022-11-15 20:46:30 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2022-11-15 20:46:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-15 20:46:31 - [TEST_STEP][PASSED] - setText(findTestObject("Input_name"), name): Text 'Ekaterina Savchenko' is set on object 'Object Repository/Input_name'
+
+2022-11-15 20:46:32 - [MESSAGE][PASSED] - Text 'Ekaterina Savchenko' is set on object 'Object Repository/Input_name'
+
+2022-11-15 20:46:32 - [TEST_STEP][PASSED] - setText(findTestObject("Input_email"), email): Text 'ekasavmail@gmail.com' is set on object 'Object Repository/Input_email'
+
+2022-11-15 20:46:33 - [MESSAGE][PASSED] - Text 'ekasavmail@gmail.com' is set on object 'Object Repository/Input_email'
+
+2022-11-15 20:46:33 - [TEST_STEP][PASSED] - click(findTestObject("Btn_learn")): Object: 'Object Repository/Btn_learn' is clicked on
+
+2022-11-15 20:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Btn_learn' is clicked on
+
+2022-11-15 20:46:34 - [TEST_STEP][PASSED] - setText(findTestObject("Input_urlGit"), urlGit): Text 'https://github.com/Eka-Sav/QA-test-assignment' is set on object 'Object Repository/Input_urlGit'
+
+2022-11-15 20:46:35 - [MESSAGE][PASSED] - Text 'https://github.com/Eka-Sav/QA-test-assignment' is set on object 'Object Repository/Input_urlGit']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-15 20:46:21 - [TEST_SUITE][PASSED] - QA test assignment: Test Cases/FormFillIn]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
